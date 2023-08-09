@@ -118,6 +118,7 @@ p {
 @media (min-width: 769px) {
     .contenedor{
         width: 120rem;
+        border-radius: .5rem;
     }
     .navegacion-principal {
         flex-direction: row;
@@ -148,6 +149,7 @@ p {
     margin-bottom: 0;
     margin-left: auto; Esto se puede reemplazar con lo de abajo, siempre pon los valores en sentido horario*/
     margin: 0 auto 0 auto;
+    border-radius: .5rem;
 
 }
 
@@ -218,6 +220,57 @@ p {
     text-align: start;
 }
 
+/*Hero pagina about*/
+.hero-about {
+    background-color: var(--negro);
+    color: var(--blanco);
+    flex-direction: row;
+    justify-content: center;
+}   
+
+.presentation-hero-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);    
+}
+
+.contenedor-contenido-hero {
+    /* width: 60rem; */
+    padding: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.contenedor-contenido-about {
+    padding: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-experience {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+}
+
+
+/*Experience*/
+.experience {
+    background-color: var(--terciario);
+    color: var(--blanco);
+}
+
+.portfolio {
+    /* background-color: var(--secundario); */
+    box-shadow: 5px 5px 25px var(--gris-transparente);
+    border-radius: .1rem;
+}
+
+.presentation-grid-portfolio {
+    padding: 8rem;
+}
 
 @media (min-width:769px) {
     .contenido-hero{
@@ -247,6 +300,12 @@ p {
         font-size: 2.5rem;
         text-align: start;
     }
+
+    .presentation-hero-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);    
+    }
+    
 
 }
 
@@ -352,7 +411,7 @@ p {
 }
 
 
-/* Grid imagenes */
+/* Grid imagenes */                         
 
 .grid-images{
     width:100%;
@@ -465,7 +524,7 @@ img{
 
 .grid-contacto {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 2fr);
 }
 
 
@@ -529,10 +588,11 @@ img{
         margin-top: 6rem;
         padding: 3rem;
     }
-    
-    .grid-contacto {
+
+
+    .grid-contacto .about {
         display: grid;
-        grid-template-columns: repeat(2, 2fr);
+        grid-template-columns: repeat(1, 1fr) ;
     }
     
     
