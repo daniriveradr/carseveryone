@@ -508,6 +508,11 @@ img{
     }
 }
 
+
+.formulario-jotform{
+    background-color: #000;
+}
+
 /* Contacto formulario*/
 
 .contenedor-sombra {
@@ -519,6 +524,13 @@ img{
     max-width: 120rem;
     margin: 0 auto;
     margin-top: 6rem;
+    padding: 3rem;
+}
+
+.contenedor-formulario-contacto {
+    max-width: 120rem;
+    margin: 0 auto;
+    margin-top: 0rem;
     padding: 3rem;
 }
 
@@ -590,7 +602,7 @@ img{
     }
 
 
-    .grid-contacto .about {
+    .grid-contacto {
         display: grid;
         grid-template-columns: repeat(2, 2fr) ;
     }
