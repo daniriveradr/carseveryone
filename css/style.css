@@ -429,6 +429,21 @@ p {
 
 }
 
+.grid-portfolio {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+
+.contenedor-contenido-portfolio {
+    /* width: 60rem; */
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
 @media (min-width:769px) {
     .presentation {
         display: grid;
@@ -459,6 +474,31 @@ p {
         justify-content: end;
     }
 
+    /* portfolio Projectos*/
+
+    .grid-portfolio {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+    }
+    
+    .contenedor-contenido-portfolio {
+        /* width: 60rem; */
+        padding: 8rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+    .grid-images-portfolio {
+    width:100%;
+    height:100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 6rem;
+    }   
+
 }
 
 .contenedor-contenido h2 {
@@ -467,22 +507,14 @@ p {
 
 .contenedor-portfolio {
     margin-top: 6rem;
+    padding: 1rem;
+}
+.contenedor-portfolio h3 {
+    font-size: 2rem;
+    text-align: left;
 }
 
-.grid-portfolio {
-    display: grid;
-    grid-template-columns: repeat(2, 2fr);
-}
 
-.contenedor-contenido-portfolio {
-    /* width: 60rem; */
-    padding: 8rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-}
 
 
 /* Grid imagenes */                         
@@ -499,7 +531,7 @@ p {
     width:100%;
     height:100%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     margin-top: 6rem;
 }
 
@@ -507,8 +539,8 @@ p {
     width:100%;
     height:100%;
     display: grid;
-    grid-template-columns: repeat(4, 4fr);
-    margin-top: 6rem;
+    grid-template-columns: repeat(2, 4fr);
+    margin-top: 1rem;
 }
 
 @media (min-width: 769px) {
@@ -518,6 +550,13 @@ p {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         margin-top: 6rem;
+    }
+    .grid-images-portfolio-gallery {
+        width:100%;
+        height:100%;
+        display: grid;
+        grid-template-columns: repeat(4, 4fr);
+        margin-top: 1rem;
     }
 }
 
@@ -667,7 +706,7 @@ img{
 }
 
 .info-contacto {
-    padding: 3rem;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     align-items: start;
