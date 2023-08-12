@@ -551,6 +551,13 @@ p {
         grid-template-columns: repeat(3, 1fr);
         margin-top: 6rem;
     }
+    .grid-images-portfolio {
+        width:100%;
+        height:100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 6rem;
+    }
     .grid-images-portfolio-gallery {
         width:100%;
         height:100%;
