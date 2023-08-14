@@ -716,14 +716,14 @@ img{
     max-width: 120rem;
     margin: 0 auto;
     margin-top: 6rem;
-    padding: 3rem;
+    padding: 1.5rem;
 }
 
 .contenedor-formulario-contacto {
     max-width: 120rem;
     margin: 0 auto;
     margin-top: 0rem;
-    padding: 3rem;
+    padding: 1.5rem;
 }
 
 .grid-contacto {
@@ -736,7 +736,7 @@ img{
     font-family: 'Audiowide', cursive;
     width: min(60rem, 100%); /** Utilizar el valor más pequeño**/
     margin: 0 auto; /**Para centrar horizontalmente, cuyo padre no sea un display flex**/
-    padding: 2rem;
+    padding: 1.5rem;
 }
 
 .formulario fieldset {
