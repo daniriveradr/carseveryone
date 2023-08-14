@@ -259,7 +259,7 @@ p {
 }
 
 .contenedor-contenido-about {
-    padding: 8rem;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -271,11 +271,60 @@ p {
     grid-template-columns: repeat(1, 2fr);
 }
 
+@media (min-width: 769px) {
+    .hero-about {
+        background-color: var(--negro);
+        color: var(--blanco);
+        flex-direction: row;
+        justify-content: center;
+    }   
+    
+    .presentation-hero-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);    
+    }
+    
+    .contenedor-contenido-hero {
+        /* width: 60rem; */
+        padding: 8rem;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+    }
+    
+    .contenedor-contenido-about {
+        padding: 8rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .contenedor-experience {
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+    }
+}
+
 
 /*Experience*/
 .experience {
     background-color: var(--terciario);
     color: var(--blanco);
+}
+
+.experience strong {
+    font-size: 2rem;
+    font-family: 'Audiowide', cursive;
+    font-weight: 300;
+}
+
+.experience p, li {
+   
+    font-weight: 400;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .portfolio {
@@ -328,6 +377,17 @@ p {
 
 .hero-projects1 {
     background-image: url(../img/mazdaPromod/mazda-6-promod-render-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 48rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 2rem; */
+}
+
+.hero-projects2 {
+    background-image: url(../img/mazdaRX7Subzero/imagen-portada3.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 48rem;
