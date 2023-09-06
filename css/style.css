@@ -379,7 +379,7 @@ p {
     background-image: url(../img/mazdaPromod/mazda-6-promod-render-1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 48rem;
+    height: 72rem;
     position: relative;
     display: flex;
     justify-content: center;
@@ -390,7 +390,18 @@ p {
     background-image: url(../img/mazdaRX7Subzero/imagen-portada3.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 48rem;
+    height: 72rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 2rem; */
+}
+
+.hero-projects3 {
+    background-image: url(../img/mazdaRx8_violeta/rx8_violeta_5.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 72rem;
     position: relative;
     display: flex;
     justify-content: center;
